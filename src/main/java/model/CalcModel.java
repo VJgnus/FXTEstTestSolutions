@@ -37,7 +37,7 @@ public class CalcModel
 
 	public void divide()
 	{
-		result.setValue(num1.doubleValue()*num2.doubleValue());
+		result.setValue(num1.doubleValue()/num2.doubleValue());
 		operations.add(new Operation(num1.doubleValue()," / ",num2.doubleValue(),result.doubleValue()));
 	}
 
